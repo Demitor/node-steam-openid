@@ -17,7 +17,7 @@ class SteamAuth {
       returnUrl,
       realm,
       true,
-      true,
+      false,
       []
     );
   }
