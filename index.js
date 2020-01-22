@@ -16,7 +16,7 @@ class SteamAuth {
     this.relyingParty = new openid.RelyingParty(
       returnUrl,
       realm,
-      true,
+      false,
       false,
       []
     );
